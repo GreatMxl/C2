@@ -18,6 +18,7 @@ int main()
     }
     printf("%zu\n" "%zu\n",strlen(p3),sizeof(p3));
     printf("%zu\n" "%zu\n",sizeof(p1),sizeof(p2));
+    return 0
 }
 //输出结果如下
 //Welcome to join us !
