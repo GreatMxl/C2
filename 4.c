@@ -19,6 +19,7 @@ void findUndercoverIDs(int nums[], int size)
         }
     
     printf("These nums are %d %d\n", id_a, id_b);
+    return 0
 }
 //若数组中只有两个元素 x和y 出现一次，其余元素均出现两次
 //则数组所有元素异或的结果等价于 x ^ y（因为成对元素异或后为 0，最终剩下 x ^ y）
